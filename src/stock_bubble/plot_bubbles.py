@@ -189,6 +189,7 @@ def plot_add_phases(plot1, list_regime_change, ndays_per_year, delta_between_cns
 
     # plot1.show_legend()  # we show legend so the legend of omega appears
     plot1.show_legend(loc='lower left')  # lower right bc price goes up with returns
+    plot1.tight_layout()
     return
 
 

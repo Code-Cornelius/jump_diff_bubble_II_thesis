@@ -45,8 +45,8 @@ print("n_s", N_S)
 # fixed parameter values
 
 # GARCH(1,1)
-ALPHA_GARCH = 0.0
-BETA_GARCH = 1.0
+ALPHA_GARCH = 0.01
+BETA_GARCH = 0.95
 
 # standard deviation p.a., corresponds to 0.0225 of annual volatility,
 # lower than observed but remember we add jumps on top, increasing the volatility.

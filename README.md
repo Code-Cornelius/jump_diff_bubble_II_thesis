@@ -1,12 +1,12 @@
 # M.Sc. Thesis Niels Cariou-Kotlarek
 
-# Title: Jump-Diffusion Models for Financial Bubbles Modelling: A Multi-scale Type-II Bubble Model With Self-Excited Crashes.
+# Title: Jump-Diffusion Models for Financial Bubbles Modelling: A Multi-scale Type-II Bubble Model With Self-Excited Crashes
 
 For citations in `biblatex`:
 
 	@article{CarKotJumpDiffusionThesis, 
 		author = "Cariou-Kotlarek, Niels", 
-		title = "Jump-Diffusion Models for Financial Bubbles Modelling: A Multi-scale Type-II Bubble Model With Self-Excited Crashes.",
+		title = "Jump-Diffusion Models for Financial Bubbles Modelling: A Multi-scale Type-II Bubble Model With Self-Excited Crashes",
 		year = "2022", 
 		month = "09",
 		publisher = "ETH Zurich Working Paper Preprint",
@@ -22,7 +22,7 @@ bubble model of type-II. All the technical details are explained inside the thes
 ## Content
 
 The thesis is in a PDF format at the root of this repository under the
-name `fin_bubbles_modell_masters_thesis_carioukotlarek.pdf`.
+name `fin_bubbles_model_masters_thesis_carioukotlarek.pdf`.
 
 **Abstract:**
 _The thesis contributes to the ongoing efforts to develop more accurate and effective models of financial bubbles.
@@ -62,7 +62,9 @@ and Mathieu Rosenbaum. “No-arbitrage implies power-law market impact and rough
 ### Source Code
 
 In the source code we have a file where the simulation of bubbles happen: `simul_bubble_script`. From it, it is possible
-to sample both type-I and II bubbles.
+to sample both type-I and II bubbles. See one example of a trajectory:
+
+![Plot of a bubble trajectory for the parameters currently present in the script](./bubble_plot.png)
 
 ### INVAR Results
 
